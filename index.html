@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Breno Augusto, desenvolvedor back-end especializado em Java, Spring Boot, APIs e microsserviços.">
+  <title>Breno Augusto — Desenvolvedor Back-end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b1018'/%3E%3Cpath d='M18 17h18c8 0 12 4 12 10 0 4-2 7-6 8 5 1 8 5 8 10 0 8-6 12-15 12H18V17zm10 8v7h7c3 0 4-1 4-4 0-2-1-3-4-3h-7zm0 15v9h8c3 0 5-2 5-5s-2-4-5-4h-8z' fill='%234ee1a0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">BA<span>.</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">◐</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> DISPONÍVEL PARA NOVOS DESAFIOS</p>
+        <h1>Construo back-ends<br><em>seguros e confiáveis.</em></h1>
+        <p class="intro">Sou Breno Augusto, desenvolvedor back-end com experiência em Java, Spring Boot, APIs e microsserviços. Transformo regras de negócio em software claro, testável e pronto para evoluir.</p>
+        <div class="actions">
+          <a class="primary" href="#projetos">Ver projetos <span>↗</span></a>
+          <a class="secondary" href="https://www.linkedin.com/in/brenoaugustoalves/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <button class="secondary" onclick="window.print()">Salvar currículo em PDF</button>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="Resumo profissional">
+        <div class="avatar">BA</div>
+        <div><strong>Breno Augusto</strong><span>Volta Redonda · RJ · Brasil</span></div>
+        <dl>
+          <div><dt>Foco</dt><dd>Back-end Java</dd></div>
+          <div><dt>Formação</dt><dd>Eng. de Software</dd></div>
+          <div><dt>Especialização</dt><dd>Cyber Defense</dd></div>
+        </dl>
+        <div class="stack"><span>Java 17</span><span>Spring Boot</span><span>PostgreSQL</span><span>Kafka</span></div>
+      </aside>
+    </section>
+
+    <section class="section split" id="sobre">
+      <div><p class="section-no">01 / SOBRE</p><h2>Tecnologia com contexto de negócio.</h2></div>
+      <div class="prose"><p>Atuo no desenvolvimento e manutenção de aplicações back-end, com atenção à qualidade do código, integração entre sistemas e segurança. Minha experiência inclui projetos corporativos, APIs REST e arquiteturas orientadas a eventos.</p><p>A formação em Engenharia de Software e a pós-graduação em Ethical Hacking e Cyber Defense ampliam meu olhar: além de fazer funcionar, busco entender riscos, dados e impactos de cada decisão técnica.</p></div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="section-head"><div><p class="section-no">02 / EXPERIÊNCIA</p><h2>Trajetória profissional</h2></div><p>Experiência prática em manutenção, evolução de sistemas e colaboração em times ágeis.</p></div>
+      <div class="timeline">
+        <article><div class="when">2022 — 2023</div><div><h3>Desenvolvedor Back-end Júnior</h3><p class="company">Tinnova · Projeto Embraer Etrack</p><p>Manutenção e desenvolvimento de funcionalidades em Java para uma plataforma global de solicitação de peças de aeronaves. Atuação com regras de negócio, persistência e integração de sistemas.</p></div></article>
+        <article><div class="when">2021</div><div><h3>Programador Trainee</h3><p class="company">DB1 Global Software</p><p>Capacitação prática em Java e Node.js, desenvolvimento em equipe e participação nas rotinas ágeis, incluindo reuniões diárias e acompanhamento de entregas.</p></div></article>
+        <article><div class="when">2013 — 2015</div><div><h3>Assistente de TI</h3><p class="company">Drogaria Retiro</p><p>Suporte a usuários, manutenção de computadores e redes, com atendimento direto e resolução de problemas de infraestrutura.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-head"><div><p class="section-no">03 / PROJETOS</p><h2>Projetos selecionados</h2></div><p>Aplicações que mostram decisões de arquitetura, integração e tratamento de dados.</p></div>
+      <div class="projects">
+        <a class="project featured" href="https://github.com/brenoaugustoalves/neuralSpring" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><p class="label">JAVA 21 · INTELIGÊNCIA ARTIFICIAL</p><h3>NeuralSpring</h3><p>Motor de orquestração de LLMs com Virtual Threads, roteamento de modelos, rate limiting e estratégia de failover.</p><div class="chips"><span>Java 21</span><span>Spring Boot</span><span>PostgreSQL</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
+        <a class="project" href="https://github.com/brenoaugustoalves/bia" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><p class="label">AWS · INTELIGÊNCIA ARTIFICIAL</p><h3>BIA</h3><p>Projeto desenvolvido durante uma imersão prática de AWS e IA, com ambiente conteinerizado e migrações de banco.</p><div class="chips"><span>AWS</span><span>IA</span><span>Docker Compose</span><span>Sequelize</span></div></div><span class="arrow">↗</span></a>
+        <a class="project" href="https://github.com/brenoaugustoalves/api-boleto" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><p class="label">MICROSSERVIÇOS · EVENTOS</p><h3>API Boleto</h3><p>Ecossistema produtor/consumidor para processamento de boletos com Kafka e comunicação assíncrona.</p><div class="chips"><span>Java 17</span><span>Spring Boot</span><span>Kafka</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
+        <a class="project" href="https://github.com/brenoaugustoalves/Consulta-Cep" target="_blank" rel="noreferrer"><span class="project-index">04</span><div><p class="label">API · INTEGRAÇÃO</p><h3>Consulta CEP</h3><p>API REST para consulta de endereços por CEP, integrada a serviço externo por OpenFeign.</p><div class="chips"><span>Java 17</span><span>Spring Boot</span><span>OpenFeign</span><span>Maven</span></div></div><span class="arrow">↗</span></a>
+        <a class="project all-projects" href="https://github.com/brenoaugustoalves?tab=repositories" target="_blank" rel="noreferrer"><span class="project-index">+</span><div><p class="label">GITHUB</p><h3>Ver todos os repositórios</h3><p>Outros estudos, APIs e experimentos publicados no meu perfil.</p></div><span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section knowledge">
+      <div><p class="section-no">04 / COMPETÊNCIAS</p><h2>Ferramentas que uso para entregar.</h2></div>
+      <div class="skill-grid"><article><span>01</span><h3>Back-end</h3><p>Java 17, Spring Boot, Jakarta EE, JPA, Hibernate, EJB, CDI e APIs REST.</p></article><article><span>02</span><h3>Dados & eventos</h3><p>PostgreSQL, MySQL, SQLite, Redis, Kafka, Avro e Schema Registry.</p></article><article><span>03</span><h3>Infraestrutura</h3><p>Docker, Docker Compose, GitHub Actions, Kubernetes e conceitos AWS.</p></article><article><span>04</span><h3>Qualidade & segurança</h3><p>JUnit, testes de integração, Postman, Swagger, OWASP e fundamentos de defesa cibernética.</p></article></div>
+    </section>
+
+    <section class="section education">
+      <p class="section-no">05 / FORMAÇÃO</p>
+      <div class="degree"><div><span>2023</span><h3>Ethical Hacking e Cyber Defense</h3><p>Pós-graduação · Faculdade Vincit</p></div><div><span>2021</span><h3>Engenharia de Software</h3><p>Bacharelado</p></div></div>
+    </section>
+
+    <section class="contact" id="contato">
+      <p class="section-no">VAMOS CONVERSAR</p><h2>Tem um projeto ou oportunidade<br>que combina com meu perfil?</h2>
+      <div class="contact-links"><a href="mailto:brenoaugustoalves@gmail.com">Enviar e-mail <span>↗</span></a><a href="https://www.linkedin.com/in/brenoaugustoalves/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/brenoaugustoalves" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Breno Augusto</span><span>Back-end · Java · Segurança</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
