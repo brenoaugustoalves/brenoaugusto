@@ -1,35 +1,53 @@
-# Breno Augusto Alves da Silva — Portfólio
+# Portfólio — Breno Augusto
 
-Este repositório apresenta meu site pessoal e um pouco da minha trajetória profissional. Ele foi criado para reunir meus projetos, experiências e conhecimentos em um só lugar — tanto para recrutadores que desejam conhecer meu perfil quanto para empresas e pessoas que procuram um profissional para transformar ideias em soluções digitais.
+Portfólio profissional de **Breno Augusto**, Desenvolvedor Java Back-end com foco em Spring Boot, APIs, microsserviços, mensageria e segurança de aplicações.
 
-## Sobre mim
+## Objetivo
 
-Sou um profissional apaixonado por tecnologia, desenvolvimento e resolução de problemas. Minha trajetória é marcada pela busca constante por evolução, pelo aprendizado prático e pela criação de soluções úteis, bem estruturadas e alinhadas aos objetivos de cada projeto.
+Apresentar experiência, especialização e projetos por meio de evidências técnicas. A página foi estruturada para atender dois públicos:
 
-Gosto de entender o desafio por trás de cada demanda, trabalhar com clareza e transformar necessidades reais em experiências digitais simples, funcionais e profissionais.
+- recrutadores e times de tecnologia em busca de um desenvolvedor Java Back-end;
+- empresas que precisam de APIs, integrações, automações e evolução de sistemas.
 
-## O que faço
+## Diferenciais apresentados
 
-- Desenvolvimento e aprimoramento de sites e aplicações web;
-- Criação de páginas profissionais, portfólios e presenças digitais;
-- Automação e melhoria de processos com tecnologia;
-- Estruturação de soluções sob medida para pessoas e negócios;
-- Manutenção, evolução e organização de projetos existentes.
+- experiência profissional com Java em produto usado globalmente no projeto Embraer Etrack;
+- formação em Engenharia de Software;
+- pós-graduação em Ethical Hacking e Cyber Defense;
+- projetos com Java 17/21, Spring Boot, Kafka, Avro, PostgreSQL e Docker;
+- visão de arquitetura, negócio, confiabilidade e segurança.
 
-Também atuo como freelancer, oferecendo um atendimento próximo e soluções personalizadas para clientes que precisam tirar uma ideia do papel, melhorar um projeto ou contar com apoio técnico no dia a dia.
+## Projetos em destaque
 
-## Para recrutadores
+- [MeuEcooMídia / Social API Manager](https://github.com/brenoaugustoalves/social-api-manager)
+- [NeuralSpring](https://github.com/brenoaugustoalves/neuralSpring)
+- [API Boleto](https://github.com/brenoaugustoalves/api-boleto)
+- [Consulta CEP](https://github.com/brenoaugustoalves/Consulta-Cep)
 
-Estou aberto a oportunidades que me permitam contribuir com visão prática, vontade de aprender e compromisso com bons resultados. Tenho interesse em ambientes colaborativos, projetos desafiadores e equipes que valorizam iniciativa, evolução contínua e impacto real.
+## Tecnologias do site
 
-Este portfólio reúne um pouco do que venho construindo e aprendendo ao longo da minha caminhada. Mais do que listar tecnologias, meu objetivo é demonstrar como penso, como resolvo problemas e como posso contribuir para um time ou negócio.
+- HTML5 semântico;
+- CSS responsivo com temas claro e escuro;
+- JavaScript sem dependências;
+- animações progressivas com respeito a `prefers-reduced-motion`;
+- publicação na Vercel.
 
-## Conheça meu trabalho
+## Executar localmente
 
-Visite o [meu portfólio](https://github.com/brenoaugustoalves/portifolio) para conhecer meus projetos e acompanhar minha evolução profissional.
+Abra `index.html` no navegador ou inicie um servidor local:
 
-Se você é recrutador, empresa ou cliente e acredita que podemos construir algo juntos, entre em contato. Estou disponível para conversar sobre oportunidades, parcerias e trabalhos freelancer.
+```bash
+python -m http.server 8000
+```
+
+Depois acesse `http://localhost:8000`.
+
+## Links
+
+- [Site publicado](https://portifolio-phi-beryl.vercel.app/)
+- [GitHub](https://github.com/brenoaugustoalves)
+- [LinkedIn](https://www.linkedin.com/in/brenoaugustoalves/)
 
 ---
 
-Feito por **Breno Augusto Alves da Silva**.
+Desenvolvido por **Breno Augusto Alves da Silva**.

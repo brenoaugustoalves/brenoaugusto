@@ -3,95 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Breno Augusto, desenvolvedor back-end e freelancer especializado em Java, Spring Boot, APIs, microsserviços e integrações seguras.">
+  <meta name="description" content="Breno Augusto — Desenvolvedor Java Back-end Pleno. Spring Boot, APIs, microsserviços, Kafka e segurança desde a arquitetura.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Breno Augusto — Desenvolvedor Back-end">
-  <meta property="og:description" content="APIs, integrações e sistemas back-end seguros, claros e prontos para crescer.">
+  <meta property="og:title" content="Breno Augusto — Java Back-end Pleno">
+  <meta property="og:description" content="Back-ends confiáveis, integrações seguras e software preparado para crescer.">
   <meta property="og:url" content="https://portifolio-phi-beryl.vercel.app/">
-  <meta name="twitter:card" content="summary">
-  <title>Breno Augusto — Desenvolvedor Back-end</title>
+  <meta name="theme-color" content="#071018">
+  <title>Breno Augusto — Java Back-end Pleno</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b1018'/%3E%3Cpath d='M18 17h18c8 0 12 4 12 10 0 4-2 7-6 8 5 1 8 5 8 10 0 8-6 12-15 12H18V17zm10 8v7h7c3 0 4-1 4-4 0-2-1-3-4-3h-7zm0 15v9h8c3 0 5-2 5-5s-2-4-5-4h-8z' fill='%234ee1a0'/%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Roboto+Mono:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Ir para o início">BA<span>.</span></a>
+    <a class="brand" href="#inicio" aria-label="Página inicial">BA<span>//</span>DEV</a>
     <nav aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+      <a href="#projetos">Projetos</a><a href="#experiencia">Experiência</a><a href="#especializacao">Especialização</a><a href="#contato">Contato</a>
     </nav>
-    <button class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">◐</button>
+    <div class="top-actions">
+      <button class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">◐</button>
+      <a class="hire-link" href="#contato">Vamos conversar <span>↗</span></a>
+    </div>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> DISPONÍVEL PARA FREELANCE E NOVOS DESAFIOS</p>
-        <h1>Construo back-ends<br><em>seguros e confiáveis.</em></h1>
-        <p class="intro">Sou Breno Augusto, desenvolvedor back-end e freelancer. Transformo desafios de negócio em APIs, integrações e sistemas seguros, claros e prontos para crescer — com proximidade, responsabilidade e foco no resultado.</p>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> JAVA BACK-END • ARQUITETURA • SEGURANÇA</p>
+        <h1>Construo back-ends confiáveis para produtos que precisam <em>crescer.</em></h1>
+        <p class="intro">Sou Breno Augusto, Desenvolvedor Java Back-end Pleno. Transformo regras de negócio em APIs, integrações e microsserviços claros, observáveis e seguros — da decisão técnica à entrega.</p>
         <div class="actions">
-          <a class="primary" href="#contato">Falar comigo <span>↗</span></a>
-          <a class="secondary" href="#projetos">Ver projetos <span>↗</span></a>
+          <a class="primary" href="#projetos">Explorar projetos <span>↗</span></a>
+          <a class="secondary" href="https://github.com/brenoaugustoalves" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/brenoaugustoalves/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
-      <aside class="profile-card" aria-label="Resumo profissional">
-        <div class="avatar">BA</div>
-        <div><strong>Breno Augusto</strong><span>Volta Redonda · RJ · Brasil</span></div>
-        <dl>
-          <div><dt>Foco</dt><dd>Back-end Java</dd></div>
-          <div><dt>Formação</dt><dd>Eng. de Software</dd></div>
-          <div><dt>Especialização</dt><dd>Cyber Defense</dd></div>
-        </dl>
-        <div class="stack"><span>Java 17</span><span>Spring Boot</span><span>PostgreSQL</span><span>Kafka</span></div>
-        <p class="availability"><span></span> Aberto a projetos e oportunidades</p>
+      <aside class="terminal reveal" aria-label="Resumo técnico">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>profile.sh</span></div>
+        <div class="terminal-body">
+          <p><b>$</b> whoami</p><strong>Breno Augusto</strong>
+          <p><b>$</b> role</p><span>Java Back-end Developer</span>
+          <p><b>$</b> stack --core</p><span>Java 17/21 · Spring Boot · PostgreSQL · Kafka</span>
+          <p><b>$</b> specialization</p><span>Ethical Hacking & Cyber Defense</span>
+          <p class="status"><i></i> disponível para oportunidades</p>
+        </div>
       </aside>
     </section>
 
-    <section class="section split" id="sobre">
-      <div><p class="section-no">01 / SOBRE</p><h2>Tecnologia com contexto de negócio.</h2></div>
-      <div class="prose"><p>Ajudo empresas e clientes a transformar ideias em produtos digitais confiáveis. Atuo no desenvolvimento e manutenção de aplicações back-end, APIs REST, integrações entre sistemas e arquiteturas orientadas a eventos, sempre conectando a solução técnica ao objetivo do negócio.</p><p>Minha experiência profissional, formação em Engenharia de Software e especialização em Ethical Hacking e Cyber Defense me permitem entregar com uma visão completa: código bem estruturado, comunicação clara, atenção aos riscos e compromisso com a evolução do projeto.</p></div>
+    <section class="proof" aria-label="Diferenciais profissionais">
+      <article><strong>Software Engineering</strong><span>Formação sólida</span></article>
+      <article><strong>Cyber Defense</strong><span>Especialização</span></article>
+      <article><strong>Java & Spring</strong><span>Back-end principal</span></article>
+      <article><strong>Produto real</strong><span>Negócio + tecnologia</span></article>
     </section>
 
-    <section class="section" id="experiencia">
-      <div class="section-head"><div><p class="section-no">02 / EXPERIÊNCIA</p><h2>Trajetória profissional</h2></div><p>Experiência prática em manutenção, evolução de sistemas e colaboração em times ágeis.</p></div>
-      <div class="timeline">
-        <article><div class="when">2024 — atual</div><div><h3>Desenvolvedor Back-end Freelancer</h3><p class="company">Projetos independentes</p><p>Desenvolvimento de APIs, integrações e automações sob medida para transformar necessidades de negócio em soluções digitais funcionais, seguras e prontas para evoluir.</p></div></article>
-        <article><div class="when">2022 — 2023</div><div><h3>Desenvolvedor Back-end Júnior</h3><p class="company">Tinnova · Projeto Embraer Etrack</p><p>Manutenção e desenvolvimento de funcionalidades em Java para uma plataforma global de solicitação de peças de aeronaves. Atuação com regras de negócio, persistência e integração de sistemas.</p></div></article>
-        <article><div class="when">2021</div><div><h3>Programador Trainee</h3><p class="company">DB1 Global Software</p><p>Capacitação prática em Java e Node.js, desenvolvimento em equipe e participação nas rotinas ágeis, incluindo reuniões diárias e acompanhamento de entregas.</p></div></article>
-        <article><div class="when">2013 — 2015</div><div><h3>Assistente de TI</h3><p class="company">Drogaria Retiro</p><p>Suporte a usuários, manutenção de computadores e redes, com atendimento direto e resolução de problemas de infraestrutura.</p></div></article>
-      </div>
+    <section class="section positioning reveal">
+      <div><p class="section-no">01 / POSICIONAMENTO</p><h2>Mais do que escrever código: penso no sistema.</h2></div>
+      <div class="prose"><p>Minha atuação combina desenvolvimento back-end, entendimento de negócio e segurança. Estruturo soluções para serem fáceis de manter, testar, integrar e evoluir.</p><p>Trabalho com APIs REST, persistência, mensageria, containers e integração contínua. A especialização em Ethical Hacking amplia minha atenção a autenticação, exposição de dados, dependências e superfícies de ataque.</p></div>
     </section>
 
     <section class="section" id="projetos">
-      <div class="section-head"><div><p class="section-no">03 / PROJETOS</p><h2>Projetos selecionados</h2></div><p>Conheça meus repositórios no GitHub e veja, na prática, como identifico problemas, desenho soluções e entrego software com arquitetura, integração e tratamento de dados.</p></div>
-      <div class="projects">
-        <a class="project featured" href="https://github.com/brenoaugustoalves/neuralSpring" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><p class="label">JAVA 21 · INTELIGÊNCIA ARTIFICIAL</p><h3>NeuralSpring</h3><p>Motor de orquestração de LLMs com Virtual Threads, roteamento de modelos, rate limiting e estratégia de failover.</p><div class="chips"><span>Java 21</span><span>Spring Boot</span><span>PostgreSQL</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/brenoaugustoalves/bia" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><p class="label">AWS · INTELIGÊNCIA ARTIFICIAL</p><h3>BIA</h3><p>Projeto desenvolvido durante uma imersão prática de AWS e IA, com ambiente conteinerizado e migrações de banco.</p><div class="chips"><span>AWS</span><span>IA</span><span>Docker Compose</span><span>Sequelize</span></div></div><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/brenoaugustoalves/api-boleto" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><p class="label">MICROSSERVIÇOS · EVENTOS</p><h3>API Boleto</h3><p>Ecossistema produtor/consumidor para processamento de boletos com Kafka e comunicação assíncrona.</p><div class="chips"><span>Java 17</span><span>Spring Boot</span><span>Kafka</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/brenoaugustoalves/Consulta-Cep" target="_blank" rel="noreferrer"><span class="project-index">04</span><div><p class="label">API · INTEGRAÇÃO</p><h3>Consulta CEP</h3><p>API REST para consulta de endereços por CEP, integrada a serviço externo por OpenFeign.</p><div class="chips"><span>Java 17</span><span>Spring Boot</span><span>OpenFeign</span><span>Maven</span></div></div><span class="arrow">↗</span></a>
-        <a class="project" href="https://github.com/brenoaugustoalves/social-api-manager" target="_blank" rel="noreferrer"><span class="project-index">05</span><div><p class="label">NODE.JS · API · AUTOMAÇÃO</p><h3>Social API Manager</h3><p>API para centralizar contas, tokens e publicações em redes sociais. O projeto permite agendar posts, publicar imediatamente, filtrar por plataforma e acompanhar logs por meio de um dashboard web.</p><div class="chips"><span>Node.js</span><span>Express</span><span>OAuth</span><span>Lowdb</span><span>Scheduler</span></div></div><span class="arrow">↗</span></a>
-        <a class="project all-projects" href="https://github.com/brenoaugustoalves?tab=repositories" target="_blank" rel="noreferrer"><span class="project-index">+</span><div><p class="label">GITHUB</p><h3>Ver todos os repositórios</h3><p>Outros estudos, APIs e experimentos publicados no meu perfil.</p></div><span class="arrow">↗</span></a>
+      <header class="section-head reveal"><div><p class="section-no">02 / PROJETOS SELECIONADOS</p><h2>Código que prova a experiência.</h2></div><p>Cada projeto destaca uma decisão técnica diferente: arquitetura, integração, eventos, automação ou confiabilidade.</p></header>
+      <div class="project-grid">
+        <a class="project featured reveal" href="https://github.com/brenoaugustoalves/social-api-manager" target="_blank" rel="noreferrer"><span class="project-number">01</span><div><p class="label">PRODUTO REAL · API · AUTOMAÇÃO</p><h3>MeuEcooMídia / Social API Manager</h3><p>Plataforma de gestão de publicações, contas e tokens de redes sociais, com agendamento, logs e dashboard web.</p><div class="chips"><span>Node.js</span><span>Express</span><span>OAuth</span><span>Scheduler</span></div></div><span class="arrow">↗</span></a>
+        <a class="project reveal" href="https://github.com/brenoaugustoalves/neuralSpring" target="_blank" rel="noreferrer"><span class="project-number">02</span><div><p class="label">JAVA 21 · IA · RESILIÊNCIA</p><h3>NeuralSpring</h3><p>Orquestração de LLMs com Virtual Threads, roteamento, rate limiting e estratégia de failover.</p><div class="chips"><span>Java 21</span><span>Spring Boot</span><span>PostgreSQL</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
+        <a class="project reveal" href="https://github.com/brenoaugustoalves/api-boleto" target="_blank" rel="noreferrer"><span class="project-number">03</span><div><p class="label">MICROSSERVIÇOS · EVENTOS</p><h3>API Boleto</h3><p>Produtor e consumidor para processamento assíncrono de boletos com contratos Avro.</p><div class="chips"><span>Java 17</span><span>Kafka</span><span>Avro</span><span>Docker</span></div></div><span class="arrow">↗</span></a>
+        <a class="project reveal" href="https://github.com/brenoaugustoalves/Consulta-Cep" target="_blank" rel="noreferrer"><span class="project-number">04</span><div><p class="label">API · INTEGRAÇÃO</p><h3>Consulta CEP</h3><p>API REST integrada a serviço externo, organizada para clareza de responsabilidades e evolução.</p><div class="chips"><span>Java 17</span><span>Spring Boot</span><span>OpenFeign</span><span>Maven</span></div></div><span class="arrow">↗</span></a>
+      </div>
+      <a class="all-repos" href="https://github.com/brenoaugustoalves?tab=repositories" target="_blank" rel="noreferrer">Ver todos os repositórios no GitHub <span>↗</span></a>
+    </section>
+
+    <section class="section" id="experiencia">
+      <header class="section-head reveal"><div><p class="section-no">03 / EXPERIÊNCIA</p><h2>Trajetória construída em evolução contínua.</h2></div></header>
+      <div class="timeline">
+        <article class="reveal"><time>2024 — atual</time><div><h3>Desenvolvedor Back-end Freelancer</h3><p class="company">Projetos independentes</p><p>APIs, integrações, automações e evolução de produtos, aproximando decisões técnicas dos objetivos de cada negócio.</p></div></article>
+        <article class="reveal"><time>2022 — 2023</time><div><h3>Desenvolvedor Back-end</h3><p class="company">Tinnova · Embraer Etrack</p><p>Manutenção e novas funcionalidades em Java para uma plataforma global de solicitação de peças aeronáuticas, atuando com regras de negócio, persistência e integrações.</p></div></article>
+        <article class="reveal"><time>2021</time><div><h3>Programador Trainee</h3><p class="company">DB1 Global Software</p><p>Desenvolvimento com Java e Node.js, colaboração em equipe e participação nas rotinas ágeis de entrega.</p></div></article>
+        <article class="reveal"><time>2013 — 2015</time><div><h3>Assistente de TI</h3><p class="company">Drogaria Retiro</p><p>Suporte a usuários, manutenção de computadores e redes, construindo a base prática da minha carreira em tecnologia.</p></div></article>
       </div>
     </section>
 
-    <section class="section knowledge">
-      <div><p class="section-no">04 / COMPETÊNCIAS</p><h2>Ferramentas que uso para entregar.</h2></div>
-      <div class="skill-grid"><article><span>01</span><h3>Back-end</h3><p>Java 17, Spring Boot, Jakarta EE, JPA, Hibernate, EJB, CDI e APIs REST.</p></article><article><span>02</span><h3>Dados & eventos</h3><p>PostgreSQL, MySQL, SQLite, Redis, Kafka, Avro e Schema Registry.</p></article><article><span>03</span><h3>Infraestrutura</h3><p>Docker, Docker Compose, GitHub Actions, Kubernetes e conceitos AWS.</p></article><article><span>04</span><h3>Qualidade & segurança</h3><p>JUnit, testes de integração, Postman, Swagger, OWASP e fundamentos de defesa cibernética.</p></article></div>
+    <section class="section expertise" id="especializacao">
+      <div class="expertise-copy reveal"><p class="section-no">04 / ESPECIALIZAÇÃO</p><h2>Segurança não entra no final. Ela começa no desenho.</h2><p>Pós-graduado em Ethical Hacking e Cyber Defense pela Faculdade Vincit, aplico uma visão preventiva ao desenvolvimento: menor exposição, validação consistente, dependências controladas e decisões arquiteturais conscientes.</p></div>
+      <div class="skill-grid">
+        <article class="reveal"><span>01</span><h3>Back-end</h3><p>Java 17/21, Spring Boot, Jakarta EE, JPA, Hibernate e APIs REST.</p></article>
+        <article class="reveal"><span>02</span><h3>Dados & eventos</h3><p>PostgreSQL, MySQL, Redis, Kafka, Avro e Schema Registry.</p></article>
+        <article class="reveal"><span>03</span><h3>Entrega</h3><p>Docker, GitHub Actions, testes, Swagger e fundamentos AWS.</p></article>
+        <article class="reveal"><span>04</span><h3>AppSec</h3><p>OWASP, análise de riscos, segurança de APIs e defesa cibernética.</p></article>
+      </div>
     </section>
 
-    <section class="section education">
-      <p class="section-no">05 / FORMAÇÃO</p>
-      <div class="degree"><div><span>2023</span><h3>Ethical Hacking e Cyber Defense</h3><p>Pós-graduação · Faculdade Vincit</p></div><div><span>2021</span><h3>Engenharia de Software</h3><p>Bacharelado</p></div></div>
-    </section>
-
-    <section class="contact" id="contato">
-      <p class="section-no">VAMOS CONVERSAR</p><h2>Precisa de uma API, integração ou automação?</h2><p>Conte o que você precisa e vamos conversar sobre uma solução objetiva para o seu projeto.</p>
+    <section class="contact reveal" id="contato">
+      <p class="section-no">PRÓXIMO PASSO</p><h2>Procura alguém que entenda código, negócio e risco?</h2><p>Estou aberto a oportunidades em desenvolvimento Java Back-end e a projetos nos quais confiabilidade e evolução realmente importam.</p>
       <div class="contact-links"><a href="mailto:brenoaugustoalves@gmail.com">Enviar e-mail <span>↗</span></a><a href="https://www.linkedin.com/in/brenoaugustoalves/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/brenoaugustoalves" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
     </section>
   </main>
-  <footer><span>© <span id="year"></span> Breno Augusto</span><span>Back-end · Java · Segurança</span></footer>
+  <footer><span>© <span id="year"></span> Breno Augusto</span><span>Java Back-end · Arquitetura · Segurança</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
