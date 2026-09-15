@@ -26,7 +26,7 @@ Este portfólio reúne um pouco do que venho construindo e aprendendo ao longo d
 
 ## Conheça meu trabalho
 
-Visite o [meu portfólio](https://github.com/brenoaugustoalves/portifolio) para conhecer meus projetos e acompanhar minha evolução profissional.
+Visite o [meu portfólio](https://github.com/brenoaugustoalves/brenoaugusto) para conhecer meus projetos e acompanhar minha evolução profissional.
 
 Se você é recrutador, empresa ou cliente e acredita que podemos construir algo juntos, entre em contato. Estou disponível para conversar sobre oportunidades, parcerias e trabalhos freelancer.
 
