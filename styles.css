@@ -12,3 +12,8 @@ nav a{position:relative;padding:8px 0}nav a::after{content:"";position:absolute;
 .contact{box-shadow:0 20px 55px #4ee1a01a}.contact>p:not(.section-no){max-width:560px;margin:18px 0 0;font-size:18px;color:#0b2a1d}.contact-links{flex-wrap:wrap}
 :focus-visible{outline:3px solid var(--accent2);outline-offset:4px;border-radius:4px}
 @media(max-width:800px){.hero::before{right:-180px;top:12%}.project.featured::after{right:14px;top:14px}.section-head{align-items:start}.contact h2 br{display:none}}
+/* Correções para manter todos os componentes legíveis no tema claro */
+body.light .topbar{background:#ffffffe6;box-shadow:0 1px 0 #10202b14}
+body.light .project.featured{background:linear-gradient(120deg,#e4f5ee,var(--surface))}
+body.light .secondary:hover{background:#10202b0a;border-color:#0a9b6877}
+body.light .contact-links a{background:#f4fffa;color:#10202b}
