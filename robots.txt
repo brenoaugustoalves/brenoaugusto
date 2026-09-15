@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portifolio-phi-beryl.vercel.app/sitemap.xml
+Sitemap: https://brenoaugusto.vercel.app/sitemap.xml
