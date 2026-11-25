@@ -26,6 +26,10 @@ Este portfólio reúne um pouco do que venho construindo e aprendendo ao longo d
 
 ## Conheça meu trabalho
 
+### Câmbio Claro
+
+Conheça a [landing page comercial do Câmbio Claro](cambio-claro.html), um aplicativo Android para acompanhar moedas, PTAX, gráficos, conversão, widget e mercado com fonte e horário visíveis.
+
 Visite o [meu portfólio](https://github.com/brenoaugustoalves/brenoaugusto) para conhecer meus projetos e acompanhar minha evolução profissional.
 
 Se você é recrutador, empresa ou cliente e acredita que podemos construir algo juntos, entre em contato. Estou disponível para conversar sobre oportunidades, parcerias e trabalhos freelancer.
