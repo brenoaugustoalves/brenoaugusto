@@ -12,7 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="cambio-claro.css">
-  <link rel="stylesheet" href="cambio-claro-overrides.css">
   <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Câmbio Claro","applicationCategory":"FinanceApplication","operatingSystem":"Android","description":"Aplicativo de consulta de câmbio e mercado com fontes e horários visíveis.","author":{"@type":"Person","name":"Breno Augusto Alves da Silva"}}
   </script>
@@ -30,20 +29,25 @@
         <p class="cc-kicker"><i></i> MERCADO SEM ACHISMO</p>
         <h1>Entenda o movimento do seu dinheiro.</h1>
         <p class="cc-lede">Câmbio Claro reúne moedas, PTAX, bolsa e conversão em uma experiência simples — sempre mostrando a fonte, o horário e quando o dado pode estar atrasado.</p>
-        <div class="cc-actions"><a class="cc-primary" href="#recursos">Conhecer os recursos <span>↓</span></a><a class="cc-ghost" href="mailto:brenoaugustoalves@gmail.com?subject=Câmbio%20Claro">Falar com o criador <span>↗</span></a></div>
+        <div class="cc-actions"><a class="cc-primary" href="#planos">Entrar na lista de interesse <span>↓</span></a><a class="cc-ghost" href="#recursos">Conhecer os recursos <span>↓</span></a></div>
         <p class="cc-micro">Sem anúncios · Sem rastreadores · Fontes identificadas</p>
       </div>
-      <div class="cc-dashboard" aria-label="Prévia visual do painel de cotação">
-        <div class="cc-dash-top"><span>MOEDAS EM REAIS</span><small>atualização automática</small></div>
-        <div class="cc-dash-main"><div><small>USD · Dólar americano</small><strong>R$ 5,43</strong><span class="cc-up">▲ +0,37% · 10:05</span></div><div class="cc-orb">$</div></div>
-        <div class="cc-mini-chart"><span class="cc-chart-label">USD/BRL · gráfico de hoje</span><svg viewBox="0 0 420 125" role="img" aria-label="Exemplo visual de linha de cotação"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#5be5b1" stop-opacity=".30"/><stop offset="1" stop-color="#5be5b1" stop-opacity="0"/></linearGradient></defs><path class="cc-area" d="M0 100 L42 86 L75 91 L110 62 L145 75 L178 49 L214 60 L248 35 L282 46 L318 25 L350 40 L385 16 L420 28 L420 125 L0 125Z"/><path class="cc-line" d="M0 100 L42 86 L75 91 L110 62 L145 75 L178 49 L214 60 L248 35 L282 46 L318 25 L350 40 L385 16 L420 28"/></svg><div class="cc-axis"><span>08:22</span><span>09:18</span><span>10:05</span></div></div>
-        <div class="cc-dash-source"><span class="cc-dot"></span> Venda (ask) · fonte identificada · horário da publicação</div>
-      </div>
+      <figure class="cc-phone">
+        <img src="assets/cambio-claro-grafico.jpeg" width="575" height="1280" alt="Tela do Câmbio Claro com o gráfico de um dia do dólar em reais">
+        <figcaption>Tela real do app, capturada em 24/11. Não é uma cotação ao vivo.</figcaption>
+      </figure>
     </section>
 
-    <section class="cc-section cc-gallery" aria-labelledby="cc-gallery-title"><div class="cc-gallery-intro"><p class="cc-kicker">PRÉVIA DO PRODUTO</p><h2 id="cc-gallery-title">Veja o produto<br><em>em contexto.</em></h2><p class="cc-gallery-note">Telas reais do Câmbio Claro, apresentadas em uma experiência de produto mais próxima do uso cotidiano.</p></div><div class="cc-gallery-grid"><figure class="cc-showcase-card cc-showcase-wide"><div class="cc-device-stage"><div class="cc-device cc-device-large"><span class="cc-device-speaker" aria-hidden="true"></span><img src="assets/cambio-claro-grafico.jpeg" alt="Tela real do Câmbio Claro com gráfico intradiário de mercado"></div></div><figcaption><strong>Gráfico de mercado</strong><span>Valor, horário e variação da moeda selecionada em uma leitura contínua.</span></figcaption></figure><figure class="cc-showcase-card"><div class="cc-device-stage"><div class="cc-device cc-device-small"><span class="cc-device-speaker" aria-hidden="true"></span><img src="assets/cambio-claro-ptax.png" alt="Tela real do Câmbio Claro com PTAX e histórico"></div></div><figcaption><strong>PTAX com contexto</strong><span>Referência do Banco Central separada da cotação de mercado.</span></figcaption></figure></div></section>
-
     <section class="cc-proof" id="confianca"><div><strong>Fonte visível</strong><span>Você sabe de onde veio o número.</span></div><div><strong>Horário real</strong><span>Publicação e idade do dado aparecem na tela.</span></div><div><strong>Sem linha inventada</strong><span>Gráficos usam observações recebidas.</span></div><div><strong>Privacidade</strong><span>Diagnóstico só sai quando você escolhe compartilhar.</span></div></section>
+
+    <section class="cc-section cc-ptax" aria-labelledby="cc-ptax-title">
+      <div>
+        <p class="cc-kicker">PTAX COM CONTEXTO</p>
+        <h2 id="cc-ptax-title">Referência não é <em>preço de mercado.</em></h2>
+        <p class="cc-lede">A PTAX do Banco Central fica em um espaço próprio, com o horário da publicação e o histórico, separada da cotação de mercado.</p>
+      </div>
+      <figure class="cc-shot"><img src="assets/cambio-claro-ptax.png" width="441" height="662" loading="lazy" alt="Tela do Câmbio Claro com a PTAX do iene e o histórico"><figcaption>Tela real do app, com dados de novembro de 2026.</figcaption></figure>
+    </section>
 
     <section class="cc-section" id="recursos"><div class="cc-heading"><p class="cc-kicker">01 / RECURSOS</p><h2>O essencial para decidir<br><em>com mais contexto.</em></h2><p>Menos telas confusas. Mais informação útil, organizada por assunto.</p></div><div class="cc-feature-grid"><article><span class="cc-number">01</span><h3>Moedas em reais</h3><p>Compare USD, EUR, GBP, JPY e outras moedas frente ao real com valor, variação, fonte e horário.</p></article><article><span class="cc-number">02</span><h3>Gráficos honestos</h3><p>Veja subida e queda por ponto publicado, toque no gráfico e consulte o valor exato daquele horário.</p></article><article><span class="cc-number">03</span><h3>PTAX separada</h3><p>Não misture referência do Banco Central com preço de mercado. Cada tipo de cotação tem seu espaço.</p></article><article><span class="cc-number">04</span><h3>Conversor prático</h3><p>Faça cenários com a moeda escolhida e confira qual taxa foi usada, sem esconder a referência.</p></article><article><span class="cc-number">05</span><h3>Widget na tela</h3><p>Acompanhe a moeda escolhida sem abrir o app. O Android informa quando uma atualização pode ser adiada.</p></article><article><span class="cc-number">06</span><h3>Bolsa e economia</h3><p>Consulte ações, Ibovespa, indicadores e fontes oficiais em áreas separadas para não misturar contextos.</p></article></div></section>
 
